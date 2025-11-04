@@ -397,11 +397,11 @@
             &copy; 2024 KeeKee Delicacies. All rights reserved.
         </p>
         <div class="text-center">
-            <a href="privacy-policy.html" class="text-sm hover:text-yellow-400">Privacy Policy</a> | 
-            <a href="tos.html" class="text-sm hover:text-yellow-400">Terms of Service</a> | 
+            <a href="/privacy-policy" class="text-sm hover:text-yellow-400">Privacy Policy</a> | 
+            <a href="/tos" class="text-sm hover:text-yellow-400">Terms of Service</a> | 
  
-            <a href="about.html" class="text-sm hover:text-yellow-400">About Us</a> | 
-            <a href="contact.html" class="text-sm hover:text-yellow-400">Contact</a>
+            <a href="/about" class="text-sm hover:text-yellow-400">About Us</a> | 
+            <a href="/contact" class="text-sm hover:text-yellow-400">Contact</a>
         </div>
     </div>
 </footer>
@@ -494,7 +494,7 @@
             alert("Add something before you checkout.");
         } else {
             localStorage.setItem('cart', JSON.stringify(cart)); // Save cart to local storage
-            window.location.href = 'checkout.html'; // Redirect to checkout page
+            window.location.href = '/checkout'; // Redirect to checkout page
         }
     });
 
